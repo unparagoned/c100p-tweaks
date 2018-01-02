@@ -24,7 +24,7 @@ net_future=0    # expected minimum bytes
 
 on_battery()
 {
-    read -r battery < /sys/class/power_supply/bq27500-0/status
+    read -r battery < /sys/class/power_supply/BAT0/status
     [[ "$battery" == "Discharging" ]]
 }
 
