@@ -6,7 +6,7 @@
 #include <complex.h>
 #include <math.h>
 
-// gcc -O2 -lm c100p.tablet-mode.c -o c100p.tablet-mode && strip c100p.tablet-mode
+// gcc -O2 -lm cAsus.tablet-mode.c -o cAsus.tablet-mode && strip cAsus.tablet-mode
 // requires xosd_cat, xinput and terminus-font
 
 #define KEYBOARD_LABEL     "cros_ec"
