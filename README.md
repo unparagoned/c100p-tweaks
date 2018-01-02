@@ -1,10 +1,18 @@
-##--- WARNING ---##
-The only functino tested was the suspend function which fixes the slow charge problem on the Asus C302 when running linux
-The rest may have dangerous effects on your computer.
-e.g. THe battery was not pointing to the correct file for later devices and there is limited input validation checking. 
+### `WARNING`
+These functions can be very dangerous! 
+
+#### 'C302 Chromebook slow charging issue on linux`
+Linux limits the charge rate to a trickle so charging goes from taking an hour to over 10. I'm not sure why are when this happens it just does. 
+
+The current solutin is to remove the power. Suspend the device attach the power, wait a few seconds then bring the device out of sleep. Then it's back charging at full rate. 
+
+Note: I did try the functions setting the current but I got errors and the battery disapeared completely. 
+
+### `suspend from cAsus.bashrc`
+Just stick the suspend alias into your bashrc. Then run suspend whenever you you need to plug in your charger. 
 
 
-
+### 'THE FOLLOWING IS AT YOUR OWN RISK'
 For full details visit http://kmkeen.com/cAsus-tweaks/
 
 Notes on requirements:
