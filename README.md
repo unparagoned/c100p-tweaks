@@ -1,3 +1,10 @@
+##--- WARNING ---##
+The only functino tested was the suspend function which fixes the slow charge problem on the Asus C302 when running linux
+The rest may have dangerous effects on your computer.
+e.g. THe battery was not pointing to the correct file for later devices and there is limited input validation checking. 
+
+
+
 For full details visit http://kmkeen.com/cAsus-tweaks/
 
 Notes on requirements:
